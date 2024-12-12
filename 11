@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zazor.com.ua</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+<body>
+   
+
+<!-- HEADER -->
+<div class="header_1">
+
+<img class="img_logo_tel_trubka" src="./images/logo_tel_trubka.jpg">
+
+<p>(044)123-45-67 (044)567-89-10</p>
+
+<form class="form_log_in" action="">
+  <img class="logo_log_in" src="./images/logo_log_in.jpg">
+  <input type="логин" placeholder="логин">
+  <input type="пароль" placeholder="пароль">
+  <button class="btn_in_reg">вход</button>
+  <span>|</span>
+  <button class="btn_in_reg">регистрация</button>
+  <button class="btn_forget_password">забыли пароль?</button>
+</form>
+
+<div class="nav_btns">
+<button  class="nav_btns--1" type="home"><img src="./images/logo_dom.jpg"></button>
+<button  class="nav_btns--2" type="sitemap"><img src="./images/logo_sitemap.jpg"></button>
+<button  class="nav_btns--3" type="email"><img src="./images/logo_mail.jpg"></button>
+</div>
+
+</div>
+<div class="main_img" >
+<img src="./images/main_image.jpg" alt="">
+</div>
+
+
+<!-- MAIN MENU -->
+<div class="main_menu"> 
+<button class="main_menu__btn">О КОМПАНИИ</button>
+<button class="main_menu__btn">ОПЛАТА</button>
+<button class="main_menu__btn">ДОСТАВКА</button>
+<button class="main_menu__btn">СТАТЬИ</button>
+<button class="main_menu__btn">КОНТАКТЫ</button>
+<img src="./images/logo_korzina.jpg" alt="">
+<span class="main_menu__text--white">товаров:</span>
+<span class="main_menu__text--blue">0</span>
+<span class="main_menu__text--white">на сумму:</span>
+<span class="main_menu__text--blue">0,00 грн.</span>
+</div>
+
+
+<!-- CONTENT -->
+<div class="content">
+<div class="content_leftbar">
+ <div class="content_leftbar__submenu"> <img class="content_leftbar__img" src="./images/logo_katalog_produkcii_brandy.jpg" alt=""> <span class="content_leftbar__span">КАТАЛОГ ПРОДУКЦИИ:&nbsp&nbsp</span></div>
+<ul> <div class="content_leftbar__submenu"> <img class="content_leftbar__img" src="./images/logo_shiny_diski_bolty.jpg" alt=""> <span class="content_leftbar__span">ШИНЫ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+  <li>Наименование 1</li>
+  <li>Наименование 2</li>
+  <li>Наименование 3</li>
+  <li>Наименование 4</li>
+  </ul>
+  <ul> <div class="content_leftbar__submenu"> <img class="content_leftbar__img" src="./images/logo_shiny_diski_bolty.jpg" alt=""> <span class="content_leftbar__span">ДИСКИ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+    <li>Наименование 1</li>
+    <li>Наименование 2</li>
+    <li>Наименование 3</li>
+    <li>Наименование 4</li>
+    </ul>
+    <ul> <div class="content_leftbar__submenu"> <img class="content_leftbar__img" src="./images/logo_shiny_diski_bolty.jpg" alt=""> <span class="content_leftbar__span">БОЛТЫ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+      <li>Наименование 1</li>
+      <li>Наименование 2</li>
+      <li>Наименование 3</li>
+      <li>Наименование 4</li>
+      </ul>
+
+</div>
+<div class="content_middle">
+  <table class="content_middle__table">
+    <tr>
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+                 
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+                 
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+                 
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+
+      <td class="content_middle__table__td">
+        <p class="content_middle__table__p--blue">Nokian</p>
+        <p class="content_middle__table__p--white">Ultra Grip Extreme</p>
+        <div><img src="./images/shina.png" alt=""></div>
+        <p class="content_middle__table__p--blue">90.00 грн</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="content_rightbar">
+  <div class="content_leftbar__submenu">  <img class="content_leftbar__img" src="./images/logo_katalog_produkcii_brandy.jpg" alt=""> <span class="content_leftbar__span">БРЭНДЫ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+  <br>
+  <div class="content_leftbar__submenu">  <img class="content_leftbar__img" src="./images/logo_shiny_diski_bolty.jpg" alt=""> <span class="content_leftbar__span">ШИНЫ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+   <div class="content_rightbar__submenu_div">  <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 1"> Бренд 1</p></div>
+   <div class="content_rightbar__submenu_div">  <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 2"> Бренд 2</p></div>
+    <div class="content_rightbar__submenu_div">   <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 3"> Бренд 3</p></div>
+
+     <div class="content_leftbar__submenu">   <img class="content_leftbar__img" src="./images/logo_shiny_diski_bolty.jpg" alt=""> <span class="content_leftbar__span">ДИСКИ:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></div>
+     <div class="content_rightbar__submenu_div">  <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 1"> Бренд 1</p></div>
+      <div class="content_rightbar__submenu_div">  <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 2"> Бренд 2</p></div>
+        <div class="content_rightbar__submenu_div">  <p class="content_rightbar__submenu_p"><input type="checkbox" name="a" value="Бренд 3"> Бренд 3</p></div>
+     <button>ВЫБРАТЬ</button>
+</div>
+</div>
+
+
+<!-- FOOTER -->
+
+<div class="footer_image">
+  <img src="./images/footer_tire_brands.jpg" alt="">
+</div>
+
+<div class="footer">
+  <button>О компании</button>
+  <span>|</span
+  <button>Доставка</button>
+  <span>|</span>
+  <button>Статьи</button>
+  <span>|</span>
+  <button>Контакты</button>
+  <p>Создание сайта @ Poklonsky V.V.</p>
+</div>
+
+
+</body>
