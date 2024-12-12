@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+.shadow_box {
+  width: 999px;
+  height: 900px;
+  -webkit-box-shadow: 10px 10px 24px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 24px 3px rgba(0, 0, 0, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 0px;
+}
+
+.logo {
+  background-image: url(images/logo.jpg);
+  width: 283px;
+  height: 164px;
+  text-align: center;
+  float: left;
+}
+
+.logo_text_1 {
+  width: 100%;
+  height: 30px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.header_info {
+  float: right;
+}
+
+.header_info li {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.country {
+  width: 600px;
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.country > div {
+  width: 65px;
+  height: 75px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.logo_text {
+  font-size: 13px;
+  color: rgba(18, 169, 166, 1);
+}
+
+.main_photo::after {
+  clear: both;
+}
+
+.navbar_submenu {
+  display: none;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+.navbar li {
+  float: left;
+  position: relative;
+  width: 130px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  float: none;
+}
+
+.navbar ul {
+  position: absolute;
+  background-color: rgb(78, 78, 78);
+}
+.navbar {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(78, 78, 78);
+}
+
+.navbar li a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.navbar::after {
+  clear: both;
+}
+
+.column_1 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: whitesmoke;
+}
+.column_1 h3 {
+  text-align: center;
+}
+
+.column_2 {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.column_3 {
+  width: 25%;
+  height: 100%;
+  float: right;
+  background-color: whitesmoke;
+}
+.column_3 h3 {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
